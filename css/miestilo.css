@@ -1,0 +1,24 @@
+*{ margin: 20px;
+    padding: 20px; 
+}
+.grid-container{
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px 10px;
+    grid-template-rows: 100px 100px 100px;
+    margin: 20px;
+    border: 10px solid darkblue;
+    justify-content: center;
+    height: 800px;
+    text-align:end; 
+    align-content: center;
+
+}
+
+.item-grid{
+    background-color: blue;
+    color: darkturquoise;
+    text-align: center;
+    grid-template-rows: 10px;
+}
